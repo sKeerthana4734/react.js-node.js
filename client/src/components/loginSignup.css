@@ -1,0 +1,164 @@
+/* *{
+    overflow-y: hidden;
+} */
+h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  color:white;
+}
+
+#card{
+        background-image: url('./img/bg.png');
+        background-repeat: no-repeat;
+        position: fixed;
+        background-size: 100% 100%;
+        width: 50%;
+        height: 50vh;
+        right: 0%;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        overflow: hidden;
+}
+#box1{
+    background-image: url('./img/login.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#box2{
+    background-image: url('./img/signup.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#box3{
+    background-image: url('./img/otp.gif');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    height: 100%;
+}
+#btn2 {
+  background-color: #00a596;
+  border: none;
+  color: white;
+  padding: 6px 100px;
+  text-align: center;
+  font-size: 18px;
+  margin: 2px 2px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+#btn2:hover {
+  background-color: #e61010;
+  color: white;
+}
+#btn3 {
+  background-color: #00a596;
+  border: none;
+  color: white;
+  padding: 6px 125px;
+  text-align: center;
+  font-size: 18px;
+  margin: 2px 2px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+#btn3:hover {
+  background-color: white;
+  color: black;
+}
+
+#psd{
+  color: white;
+}
+#psd::placeholder{
+  color: #fdfdfd;
+}
+#psd1{
+  color:white;
+}
+.textfield{
+  width: 300px;
+}
+.textfield::placeholder{
+  color: white !important;
+}
+
+p{
+  color: white;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#frontimg{
+  background-image: url('./img/home.jpg');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center;
+  height: 75vh;
+  margin: 0px;
+}
+#chatly{
+ font-family:'nunito';
+font-size: 74px;
+color:white;
+text-align: center;
+}
+.frontbg{
+background-color: black;
+}
+.fronth{
+color: black;
+}
+#frontimgdown{
+background-image: url('./img/confetti.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height:80%;
+  min-width: 140%;
+}
+#btnfront{
+border: none;
+color: white;
+text-align: center;
+font-size: 18px;
+ padding: 2px 20px;
+margin: 2px 2px;
+transition: 0.3s;
+border-radius: 10px;
+font-family: 'nunito';
+}
+
+#btnfront:hover {
+background-color: #00a596;
+}
+#txt{
+font-family:'Times New Roman', Times, serif;
+font-size: 23px;
+text-align: left;
+margin-left: 65px;
+padding: 30px;
+color: #00a596;
+}
+#foot{
+font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+#whatsapp{
+color: #00a596;
+}
+
+#contact{
+  text-align: center;
+}
